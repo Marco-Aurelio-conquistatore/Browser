@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.tuonome.browser'
+    namespace 'com.nomedascegliere.browser'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.tuonome.browser"
+        applicationId "com.nomedascegliere.browser"
         minSdk 24
         targetSdk 34
         versionCode 1
