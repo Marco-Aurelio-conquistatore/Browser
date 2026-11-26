@@ -31,3 +31,11 @@ dependencies {
     // GeckoView: ultima versione stabile
     implementation 'org.mozilla.geckoview:geckoview:158.0.20261007201254'
 }
+
+configurations.all {
+    resolutionStrategy {
+        force 'org.jetbrains.kotlin:kotlin-stdlib:2.2.10'
+        force 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:2.2.10'
+        force 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.10'
+    }
+}
